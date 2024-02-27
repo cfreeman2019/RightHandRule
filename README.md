@@ -1,1 +1,5 @@
 # RightHandRule
+
+This program asks for input of direction for velocity, magnetic field, and force and asks you to answer true/false to whether this point charge is positive. If you input two of three of these directions as valid directions (up|down|left|right|in|out) and these two directions are not parallel or anti-parallel, the program will print a message that displays the direction of the unknown vector.  If you input all three vectors it will send a message to the user that there are no unknowns to find (it doesn't say whether this is a possible or impossible configuration). If only velocity and magnetic field are entered and they are either parallel or antiparallel it will print a message that says "Force is Zero". If velocity and force or force and magnetic field are parallel or anti-parallel it will print a message saying that this configuration is impossible.  After printing the result it will ask the user if they would like to run the program again.
+
+In short this program takes the input for the direction of 2 vectors and prints the resultant direction of the third unkown vector.
